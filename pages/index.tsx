@@ -1,4 +1,5 @@
-﻿import { SignIn, SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
+﻿import React from 'react';
+import { SignIn, SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
 import { useUser } from '@clerk/nextjs';
 
 export default function Home() {

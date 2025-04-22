@@ -1,3 +1,4 @@
+import React from 'react';
 import { SignedIn, SignedOut, SignIn } from '@clerk/nextjs';
 
 export default function Documents() {

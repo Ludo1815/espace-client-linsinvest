@@ -1,4 +1,4 @@
-// pages/_app.tsx
+import React from 'react';
 import type { AppProps } from 'next/app';
 import { ClerkProvider } from '@clerk/nextjs';
 import { useRouter } from 'next/router';
